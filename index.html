@@ -44,6 +44,10 @@
       border-bottom: 1px solid black;
     }
 
+    .container-width {
+      width: 840px;
+    }
+
     .border-r {
       border-right: 1px solid black;
     }
@@ -86,6 +90,10 @@
         /* height: 80px; */
       }
 
+      .container-width {
+        width: 1140px;
+      }
+
       .border-t-b {
         border-top: 1px solid black;
         border-bottom: 1px solid black;
@@ -99,8 +107,8 @@
 </head>
 
 <body>
-  <div class="container-fluid ">
-    <div class="container mt-5 border-corner px-0 ">
+  <div class="container-fluid d-flex justify-content-center">
+    <div class="container-width mt-5 border-corner px-0 ">
       <div class="header  top-headers p-4">
         <div class="header-logo d-flex align-items-center">
           <div class="">
@@ -151,7 +159,56 @@
             </tr>
             <tr>
               <td class="w-25 fw-bold text-danger text-end border-r">Address</td>
-              <td>Janki Market, Bhagwat Nagar, Kumhrar, Patna 800026, Bihar, India Janki Market, Bhagwat Nagar, Kumhrar, Patna 800026, Bihar, India</td>
+              <td>Janki Market, Bhagwat Nagar, Kumhrar, Patna 800026, Bihar, India Janki Market, Bhagwat Nagar, Kumhrar,
+                Patna 800026, Bihar, India</td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+      <!-- Statement start -->
+      <div class="col-12 border-t-b">
+        <h6 class="text-center py-1 mb-0">Payment Details</h6>
+      </div>
+      <!-- Statement end -->
+      <div class="col-12">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th class="w-25 text-danger fw-bolder text-center">Earning</th>
+              <th class="w-25 text-danger fw-bolder text-center">Amount</th>
+              <th class="w-25 text-danger fw-bolder text-center">Deduction</th>
+              <th class="w-25 text-danger fw-bolder text-center">Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="w-25 fw-bold  text-end border-r">Matching Income</td>
+              <td class="w-25   text-end border-r">7500</td>
+              <td class="w-25   text-end border-r">Admin[5.00%]</td>
+              <td class="w-25  text-end border-r">375</td>
+            </tr>
+            <tr>
+              <td class="w-25 fw-bold  text-end border-r">Direct Referal Income</td>
+              <td class="w-25   text-end border-r">0</td>
+              <td class="w-25  text-end border-r">TDS[5.00%]</td>
+              <td class="w-25   text-end border-r">375</td>
+
+            </tr>
+            <tr>
+              <td class="w-25  fw-bold  text-end border-r">Award Income</td>
+              <td class="w-25  text-end border-r">0</td>
+              <td class="w-25  text-end border-r">Net Payout</td>
+              <td class="w-25  text-end border-r">6750</td>
+
+            </tr>
+            <tr>
+              <td class="w-25 fw-bold text-end border-r">Deduction</td>
+              <td class="w-25  text-end border-r">750</td>
+            </tr>
+            <tr>
+              <td class="w-25 fw-bold text-end border-r">Total Income</td>
+              <td class="w-25  text-end border-r">7500</td>
             </tr>
 
           </tbody>
